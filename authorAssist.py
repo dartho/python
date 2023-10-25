@@ -51,5 +51,6 @@ selection = ""
 while selection not in ["c", "w", "f", "r", "s", "q"]:
     selection = input("Choose a valid option: ")
 
+# If user chose "q", just exit program, otherwise execute menu selection
 if selection != "q":
     execute_menu(selection, text)
