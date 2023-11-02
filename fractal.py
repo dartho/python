@@ -23,4 +23,4 @@ def print_span(char, num):
         print(char, end="")
 
 
-fractal(4, 0)
+fractal(8, 0)
