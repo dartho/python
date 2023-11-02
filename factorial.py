@@ -1,5 +1,5 @@
 def factorial_recursion(num):
-    return num * factorial_recursion_exp(num - 1) if num - 1 > 0 else num
+    return num * factorial_recursion(num - 1) if num - 1 > 0 else num
 
 
 def factorial_recursion_exp(num):
