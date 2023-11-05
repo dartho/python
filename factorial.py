@@ -17,11 +17,10 @@ def factorial_for(num):
 
 
 def factorial_while(num):
-    i = num
     product = 1
-    while i > 0:
-        product *= i
-        i -= 1
+    while num > 0:
+        product *= num
+        num -= 1
     return product
 
 
@@ -30,5 +29,3 @@ print(factorial_recursion(f))
 print(factorial_recursion_exp(f))
 print(factorial_for(f))
 print(factorial_while(f))
-
-
