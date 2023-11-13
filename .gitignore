@@ -160,4 +160,4 @@ cython_debug/
 .idea/
 
 sandbox.py
-output/
+school/output/
