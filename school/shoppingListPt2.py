@@ -58,13 +58,15 @@ class ShoppingCart:
         return total
 
     def print_total(self):
+        num_items = self.get_num_items_in_cart()
         print(f"{self.customer_name}'s Shopping Cart - {self.current_date}")
-        print(f"Number of Items: {self.get_num_items_in_cart()}")
+        print(f"Number of Items: {num_items}")
         print()
-        item: ItemToPurchase
-        for item in self.cart_items:
-            item.print_item_cost()
-        print()
+        if num_items > 0:
+            item: ItemToPurchase
+            for item in self.cart_items:
+                item.print_item_cost()
+            print()
         print(f"Total: ${round(self.get_cost_of_cart(), 2)}")
 
     def print_descriptions(self):
