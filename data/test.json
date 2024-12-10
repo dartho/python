@@ -1,0 +1,6 @@
+{
+    "name":"John",
+    "surName":"Doe",
+    "age": 23,
+    "numbers": [13, 7, 333]
+}
