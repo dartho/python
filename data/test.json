@@ -1,6 +1,14 @@
-{
-    "name":"John",
-    "surName":"Doe",
-    "age": 23,
-    "numbers": [13, 7, 333]
-}
+[
+    {
+        "name":"John",
+        "surName":"Doe",
+        "age": 23,
+        "numbers": [13, 7, 333]
+    },
+    {
+        "name":"Jane",
+        "surName":"Doe",
+        "age": 21,
+        "numbers": [78, 80]
+    }
+]
